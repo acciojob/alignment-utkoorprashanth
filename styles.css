@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body{
+	font-family:sans-serif;
+}
+.centre-heading{
+	text-align: centre;
+}
+.middle{
+	width:80%;
+	margin: 20px auto;
+	border-collapse: collapse;
+}
+.middle, .middle th, .middle td{
+	border:1px solid black;
+	padding: 1px;
+	border-spacing:1px;
+}
+#table-1 .centre{
+	text-align: centre;
+}
+#table-1 .right{
+	text-align: right;
+}
+#table-3 .green{
+	background-color:green;
+	color: white;
+}
+#table-3 img{
+	max-width:100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
